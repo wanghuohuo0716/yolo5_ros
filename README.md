@@ -5,14 +5,20 @@ date: 20230329
 
 platform:jetson agx xavier
 
-1.build
+一、build
+
 1.1 cd /home/nvidia/catkin_yolov5
+
 1.2 catkin_make
 
-2.run
+二、run
+
 2.1 cd /home/nvidia/catkin_yolov5
+
 2.2 source devel/setup.bash
+
 2.3 roscore
+
 2.4 rosrun yolov5 yolov5s
 
 
